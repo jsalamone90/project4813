@@ -1,0 +1,69 @@
+/* Nav and top banner styles
+-------------------------------------------------- */
+.top_banner {
+  background-color: #ca027d; 
+  color: white;
+}
+nav {
+  border-radius: 0px !important;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #ca027d !important;
+}
+
+.donate_nav li > a {
+  color: #000 !important;
+}
+
+.donate_nav li > a:hover {
+  color: #FFF !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #ca027d !important;
+}
+
+
+/* Button styles
+-------------------------------------------------- */
+.donate_btn {
+  background-color: #ca027d;
+  color: white;
+}
+
+.donate_btn:hover {
+  color: black !important;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #1995DC;
+  
+  /* add media query size for this font */
+  font-size: 50%;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container .text-muted {
+  /*color: #000;*/
+  margin: 20px 0;
+}
