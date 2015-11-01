@@ -8,8 +8,12 @@ nav {
   border-radius: 0px !important;
 }
 
-.navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand {
   color: #ca027d !important;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #FFF !important;
 }
 
 .donate_nav li > a {
