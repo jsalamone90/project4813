@@ -33,9 +33,25 @@ nav {
 }
 
 .donate_btn:hover {
-  color: black !important;
+  background-color: blue;
+  color: #FFF !important;
 }
 
+/*Font awesome styling by viewport size percentage*/
+.my-fa {
+  color: #ca027d;
+  font-size: 20vw;
+}
+
+.my-fa:hover {
+  color: blue;
+}
+
+/* Fixed header overlap content fix
+-------------------------------------------------- */
+body { 
+    padding-top: 65px; 
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -47,6 +63,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -56,14 +73,48 @@ body {
   background-color: #1995DC;
   
   /* add media query size for this font */
-  font-size: 50%;
 }
 
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 .container .text-muted {
   /*color: #000;*/
   margin: 20px 0;
+}
+
+/* Prevent sticky footer covering content */
+.clear { 
+  clear: both; 
+  height: 100px; 
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 80%;
+  }
+}
+
+
+/* Fix for page anchor jumps being hidden with fixed nav
+-------------------------------------------------- */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+
+
+/* Tables and mobile tables
+-------------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+}
+
+
+/* Others
+-------------------------------------------------- */
+hr { 
+  background-color: #ca027d !important; 
+  height: 1px !important; 
+  border: 0 !important; 
 }
