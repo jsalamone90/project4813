@@ -9,5 +9,5 @@ Site can be found here:
 
 
    
-[site]: <https://http://jtlindsey.github.io/project4813/>
+[site]: <https://jtlindsey.github.io/project4813/>
  
